@@ -32,7 +32,8 @@ Please pay attention that hardware virtualization could be unsupported on Window
 - Open the Command prompt with Administrator rights and execute the command: `wsl --install`
 - Update WSL to enable the latest features: Execute the command: `wsl --update`
 - Set WSL default version to 2: Execute the command: `wsl --set-default-version 2`
-- Finally, check if the installation was successful and if WSL is configured correctly: Execute the command: `wsl --help` - Check if `--import-in-place` is present in the argument list.
+- Finally, check if the installation was successful and if WSL is configured correctly: Execute the command: `wsl --help`
+- Check if `--import-in-place` is present in the argument list.
 - Restart your PC to apply WSL.
 
 ## Installation on Windows 11:
@@ -40,7 +41,8 @@ Please pay attention that hardware virtualization could be unsupported on Window
 - Open the Terminal with Admin rights and execute the command: `wsl --install --no-distribution`
 - Update WSL to enable the latest features: Execute the command: `wsl --update`
 - Set WSL default version to 2: Execute the command: `wsl --set-default-version 2`
-- Finally, check if the installation was successful and if WSL is configured correctly: Execute the command: `wsl --help` - Check if `--import-in-place` is present in the argument list.
+- Finally, check if the installation was successful and if WSL is configured correctly: Execute the command: `wsl --help`
+- Check if `--import-in-place` is present in the argument list.
 - Restart your PC to apply WSL.
 
 See official Microsoft WSL documentation for additional info: [Microsoft WSL Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
